@@ -1,0 +1,26 @@
+export const data =
+  [
+    {"hint": "A method to repeat an action multiple times", "word": "loop"},
+    {"hint": "A tool used to find and fix errors in code", "word": "debugger"},
+    {"hint": "A type of function that returns a value", "word": "method"},
+    {"hint": "A structure to hold a collection of elements", "word": "array"},
+    {"hint": "A blueprint for creating objects", "word": "class"},
+    {"hint": "A variable that holds data that doesn't change", "word": "constant"},
+    {"hint": "A programming language known for web development", "word": "JavaScript"},
+    {"hint": "A tool used to manage code versions", "word": "git"},
+    {"hint": "A process of making sure the software works correctly", "word": "testing"},
+    {"hint": "A data type used for true or false values", "word": "boolean"},
+    {"hint": "A data structure used for key-value pairs", "word": "dictionary"},
+    {"hint": "A programming concept to make code reusable", "word": "function"},
+    {"hint": "A feature in object-oriented programming to hide implementation details", "word": "encapsulation"},
+    {"hint": "A language used for database management", "word": "SQL"},
+    {"hint": "A type of loop that continues until a condition is met", "word": "while"},
+    {"hint": "A language known for its use in iOS development", "word": "Swift"},
+    {"hint": "A concept in programming that involves code reuse via inheritance", "word": "inheritance"},
+    {"hint": "A pattern in software design to separate concerns and make code more maintainable", "word": "MVC"},
+    {"hint": "A lightweight data interchange format that's easy for humans to read and write", "word": "JSON"},
+    {"hint": "A type of database that stores data in tables with rows and columns", "word": "relational"},
+    {"hint": "A framework used to build user interfaces, often used with React", "word": "Redux"},
+    {"hint": "A tool for managing software dependencies", "word": "npm"},
+    {"hint": "A function that runs asynchronously and handles promises", "word": "async"}
+  ]

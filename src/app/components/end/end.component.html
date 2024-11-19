@@ -1,0 +1,6 @@
+@if (hasRemainingAttempts()) {
+  <h1>Congratulations, you nailed it 🎉👏!</h1>
+} @else {
+  <h1>You ran out of lives, try again!</h1>
+}
+<button (click)="onRestart()" class="primary-button">Play Again</button>

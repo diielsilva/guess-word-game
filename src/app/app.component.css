@@ -1,0 +1,7 @@
+.used-letters-container {
+  margin: var(--margin-primary);
+}
+
+.used-letter {
+  margin-right: var(--margin-primary);
+}

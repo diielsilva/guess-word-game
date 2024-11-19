@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #351877;
+  --secondary-color: #e131e1;
+  --terciary-color: #ffffff;
+  --text-primary: #f3eded;
+  --text-secondary: #050505;
+  --margin-primary: 10px;
+  --padding-primary: 10px;
+  --radius-primary: 20px;
+  --radius-secondary: 10px;
+  --primary-font: "Funnel Display", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  color: var(--text-primary);
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: var(--padding-primary);
+  font-family: var(--primary-font);
+}
+
+button {
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: var(--secondary-color);
+  color: var(--text-primary);
+  border-radius: var(--radius-primary);
+  padding: var(--padding-primary);
+  margin: var(--padding-primary);
+  width: 100%;
+  max-width: 300px;
+  font-family: var(--primary-font);
+}
+
+@media(max-width: 500px) {
+  html {
+    height: auto;
+  }
+}

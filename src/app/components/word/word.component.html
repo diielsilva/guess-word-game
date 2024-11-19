@@ -1,0 +1,6 @@
+<h1>{{ word().hint }}</h1>
+<ul class="letter-container">
+  @for (letter of word().letters; track $index) {
+    <li class="letter">{{ letter }}</li>
+  }
+</ul>
